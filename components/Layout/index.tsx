@@ -24,7 +24,7 @@ const Layout = ({ layoutNoOverflow, children, footerHide }: LayoutProps) => {
     return (
         <>
             <Head>
-                <title>Paradox</title>
+                <title>PollValut</title>
             </Head>
             <div
                 className={cn(styles.layout, {
