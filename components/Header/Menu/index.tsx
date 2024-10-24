@@ -62,14 +62,14 @@ const Menu = ({ navigation }: MenuProps) => {
                 </nav>
                 <div className={styles.line}>
                     <div className={styles.details}>
-                        <div className={styles.text}>Talk to sale</div>
+                        <div className={styles.text}>Contact Us</div>
                         <a
                             href="mailto:hello@ui8.net"
                             className={cn("h6", styles.mail)}
                             target="_blank"
                             rel="noreferrer"
                         >
-                            hello@ui8.net
+                            www.pollvault.ing
                         </a>
                     </div>
                     <button className={styles.chat}>

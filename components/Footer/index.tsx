@@ -26,18 +26,17 @@ const Footer = ({}: FooterProps) => {
                         <Logo
                             className={styles.logo}
                             titleClassName={styles.titleLogo}
-                            title
                         />
                         <div className={styles.info}>
-                            The Real-time & powerful 3D design for web.
+                        Understand Your Audience Like Never Before
                         </div>
                     </div>
                 </div>
             </div>
             <div className={styles.bottom}>
                 <div className={cn("container", styles.container)}>
-                    <div className={styles.copyright}>©2022 - UI8, Ltd.</div>
-                    <div>Design by UI8 team.</div>
+                    <div className={styles.copyright}>©2024 - Pollvault</div>
+                    <div>Design by Pollvault team.</div>
                 </div>
             </div>
         </footer>

@@ -1,26 +1,26 @@
 export const socials = [
     {
         icon: "facebook",
-        href: "https://www.facebook.com/ui8.net/",
+        href: "https://www.pollvault.ing",
     },
     {
         icon: "twitter",
-        href: "https://twitter.com/ui8",
+        href: "https://www.pollvault.ing",
     },
     {
         icon: "product-hunt",
-        href: "https://www.producthunt.com/products/ui-8",
+        href: "https://www.pollvault.ing",
     },
     {
         icon: "pinterest",
-        href: "https://www.pinterest.com/ui8m/",
+        href: "https://www.pollvault.ing",
     },
     {
         icon: "instagram",
-        href: "https://www.instagram.com/ui8net/",
+        href: "https://www.pollvault.ing",
     },
     {
         icon: "linkedin",
-        href: "https://www.linkedin.com/company/ui8/",
+        href: "https://www.pollvault.ing",
     },
 ];

@@ -6,16 +6,18 @@ import Animation from "@/components/Animation";
 
 import { generation } from "@/mocks/generation";
 
-type GenerationProps = {};
+type GenerationProps = {
+    scrollToRef: any;
+};
 
-const Generation = ({}: GenerationProps) => {
+const Generation = ({ scrollToRef }: GenerationProps) => {
     const isMobile = useMediaQuery({
         query: "(max-width: 767px)",
     });
 
     return (
-        <div className={cn("section-border", styles.generation)}>
-            <div className={cn("container", styles.container)}>
+        <div className={cn("section-border", styles.generation)} ref={scrollToRef}>
+            <div className={cn("container", styles.container)} >
                 <h2 className={cn("h2", styles.title)}>
                     Wow your audience and gather insights that matter
                 </h2>

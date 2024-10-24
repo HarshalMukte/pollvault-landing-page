@@ -1,25 +1,32 @@
 export const headerNavigation = [
+    // {
+    //     title: "Features",
+    //     url: "/",
+    // },
+    // {
+    //     title: "Pricing",
+    //     url: "/pricing",
+    // },
+    // {
+    //     title: "Download",
+    //     url: "/download",
+    // },
     {
-        title: "Features",
+        title: "Home",
         url: "/",
     },
     {
-        title: "Pricing",
-        url: "/pricing",
+        title: "About",
+        url: "/about-us",
     },
     {
-        title: "Download",
-        url: "/download",
+        title: "FAQs",
+        url: "/faqs",
     },
-    {
-        title: "Community",
-        url: "https://ui8.net/",
-        external: true,
-    },
-    {
-        title: "Help",
-        url: "/help",
-    },
+    // {
+    //     title: "Help",
+    //     url: "/help",
+    // },
 ];
 
 export const footerNavigation = [
@@ -27,19 +34,19 @@ export const footerNavigation = [
         title: "Product",
         value: "product",
         menu: [
+            // {
+            //     title: "Features",
+            //     url: "/",
+            //     external: false,
+            // },
+            // {
+            //     title: "Pricing",
+            //     url: "/pricing",
+            //     external: false,
+            // },
             {
-                title: "Features",
-                url: "/",
-                external: false,
-            },
-            {
-                title: "Pricing",
-                url: "/pricing",
-                external: false,
-            },
-            {
-                title: "Download",
-                url: "/download",
+                title: "FAQs",
+                url: "/faqs",
                 external: false,
             },
         ],
@@ -49,20 +56,25 @@ export const footerNavigation = [
         value: "company",
         menu: [
             {
+                title: "Home",
+                url: "/",
+                external: false,
+            },
+            {
                 title: "About",
                 url: "/about-us",
                 external: false,
             },
-            {
-                title: "Blog",
-                url: "/blog",
-                external: false,
-            },
-            {
-                title: "Contact",
-                url: "/contact",
-                external: false,
-            },
+            // {
+            //     title: "Blog",
+            //     url: "/blog",
+            //     external: false,
+            // },
+            // {
+            //     title: "Contact",
+            //     url: "/contact",
+            //     external: false,
+            // },
         ],
     },
     {
