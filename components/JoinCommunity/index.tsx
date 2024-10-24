@@ -1,17 +1,15 @@
-import Link from "next/link";
 import cn from "classnames";
 import styles from "./JoinCommunity.module.sass";
 import Image from "@/components/Image";
 import Animation from "@/components/Animation";
 
 import { avatars, images } from "@/constants/joinCommunity";
-import Form from "../Form";
-import { useState } from "react";
+import NewWidget from "../Wishlist/NewWidget";
 
 type JoinCommunityProps = {};
 
 const JoinCommunity = ({}: JoinCommunityProps) => {
-    const [email, setEmail] = useState("")
+    // const [email, setEmail] = useState("")
 
     return (
         <div className={styles.join}>
@@ -31,7 +29,7 @@ const JoinCommunity = ({}: JoinCommunityProps) => {
               ))}
             </div>
             <div className={styles.formContainer}>
-              <Form
+              {/* <Form
                 className={styles.form}
                 placeholder="Join the waitlist"
                 type="email"
@@ -39,7 +37,8 @@ const JoinCommunity = ({}: JoinCommunityProps) => {
                 value={email}
                 setValue={setEmail}
                 onSubmit={() => console.log("Submit")}
-              />
+              /> */}
+              <NewWidget />
             </div>
             {/* <Link href="/pricing">
               <a className={cn("button", styles.button)}>Get started</a>

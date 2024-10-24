@@ -12,7 +12,7 @@ const Discover = ({}: DiscoverProps) => {
     return (
         <div className={cn("section", styles.discover)}>
             <div className={cn("container", styles.container)}>
-                <h2 className={cn("h2", styles.title)}>Discover how it work</h2>
+                <h2 className={cn("h2", styles.title)}>Discover how it works</h2>
                 <div className={styles.list}>
                     <Item
                         className={styles.item}

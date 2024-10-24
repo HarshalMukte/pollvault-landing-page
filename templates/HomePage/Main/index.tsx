@@ -5,10 +5,9 @@ import styles from "./Main.module.sass";
 
 import Scroll from "@/components/Scroll";
 import Animation from "@/components/Animation";
-import Form from "@/components/Form";
-import { useState } from "react";
+import NewWidget from "@/components/Wishlist/NewWidget";
 // import HeroImage from "/images/main-pic-1.png"
-import HeroImage from "../../../public/images/main-pic-1.png"
+import HeroImage from "../../../public/images/main-pic-1.png";
 import Image from "next/image";
 
 type MainProps = {
@@ -16,17 +15,18 @@ type MainProps = {
 };
 
 const Main = ({ scrollToRef }: MainProps) => {
-  const [email, setEmail] = useState<string>("");
 
   return (
     <div className={cn("section", styles.main)}>
       <div className={cn("container", styles.container)}>
         <div className={styles.wrap}>
-          <h1 className={cn("h2",styles.title)}>Understand Your Audience Like Never Before</h1>
+          <h1 className={cn("h2", styles.title)}>
+            Understand Your Audience Like Never Before
+          </h1>
           {/* <div className={cn("h6", styles.info)}>
           </div> */}
           <div className={styles.btns}>
-            <Form
+            {/* <Form
               className={styles.form}
               placeholder="Join the waitlist"
               type="email"
@@ -34,7 +34,8 @@ const Main = ({ scrollToRef }: MainProps) => {
               value={email}
               setValue={setEmail}
               onSubmit={() => console.log("Submit")}
-            />
+            /> */}
+            <NewWidget />
             <Link href="/about-us">
               <a className={cn("button-gray", styles.button)}>Learn more</a>
             </Link>
