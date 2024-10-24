@@ -8,30 +8,6 @@ export const avatars = [
 
 export const images = [
     {
-        src: "/images/join/image-1.png",
-        width: 343,
-        height: 343,
-        alt: "Picture",
-    },
-    {
-        src: "/images/join/image-2.png",
-        width: 217,
-        height: 217,
-        alt: "Picture",
-    },
-    {
-        src: "/images/join/image-8.png",
-        width: 297,
-        height: 297,
-        alt: "Picture",
-    },
-    {
-        src: "/images/join/image-9.png",
-        width: 340,
-        height: 340,
-        alt: "Picture",
-    },
-    {
         src: "/images/join/image-3.png",
         width: 121,
         height: 121,

@@ -3,6 +3,7 @@
 .join
     position: relative
     overflow: hidden
+    background: linear-gradient(90deg, #6244D6, #2B6CE1)
     &:before,
     &:after
         content: ""
@@ -33,10 +34,8 @@
     display: flex
     justify-content: center
     align-items: center
-    height: 1024px
+    height: 700px
     text-align: center
-    +x
-        height: 800px
 
 .wrap
     position: relative
@@ -44,10 +43,11 @@
 
 .title
     margin-bottom: 12px
+    color: #ffffff
 
 .info
     margin-bottom: 24px
-    color: $n4
+    color: #e1e1e1
     +m
         font-size: 20px
         line-height: 32px
@@ -72,41 +72,6 @@
     font-size: 0
     z-index: 1
     &:nth-child(1)
-        left: calc(50% - 850px)
-        bottom: 170px
-        +x
-            left: calc(50% - 800px)
-            bottom: 20px
-        +m
-            display: none
-    &:nth-child(2)
-        top: 80px
-        left: calc(50% - 658px)
-        +x
-            left: calc(50% - 578px)
-        +d
-            left: calc(50% - 604px)
-        +m
-            display: none
-    &:nth-child(3)
-        top: 14px
-        right: calc(50% - 715px)
-        +x
-            top: 0
-            right: calc(50% - 635px)
-        +m
-            top: -10px
-            right: calc(50% - 303px)
-            width: 250px
-    &:nth-child(4)
-        right: calc(50% - 847px)
-        bottom: 113px
-        +x
-            right: calc(50% - 827px)
-            bottom: 0
-        +m
-            display: none
-    &:nth-child(5)
         left: calc(50% - 310px)
         bottom: 240px
         +x
@@ -114,21 +79,21 @@
         +m
             left: 0
             bottom: 165px
-    &:nth-child(6)
-        top: 140px
+    &:nth-child(2)
+        top: 50px
         left: calc(50% - 217px)
         +x
             top: 30px
         +m
             left: 0
-    &:nth-child(7)
-        top: 244px
+    &:nth-child(3)
+        top: 125px
         right: calc(50% - 215px)
         +x
-            top: 135px
+            top: 110px
         +m
             display: none
-    &:nth-child(8)
+    &:nth-child(4)
         right: calc(50% - 225px)
         bottom: 113px
         +x
@@ -137,7 +102,7 @@
         +m
             right: calc(50% - 110px)
             bottom: 140px
-    &:nth-child(9)
+    &:nth-child(5)
         right: calc(50% - 510px)
         bottom: 322px
         +x
