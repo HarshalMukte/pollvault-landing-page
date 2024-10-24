@@ -17,7 +17,7 @@ const Generation = ({}: GenerationProps) => {
         <div className={cn("section-border", styles.generation)}>
             <div className={cn("container", styles.container)}>
                 <h2 className={cn("h2", styles.title)}>
-                    The 3D generation is here.
+                    Wow your audience and gather insights that matter
                 </h2>
                 <div className={styles.list}>
                     {generation.map((item, index) => (

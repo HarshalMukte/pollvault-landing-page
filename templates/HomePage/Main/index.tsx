@@ -6,6 +6,8 @@ import Scroll from "@/components/Scroll";
 import Animation from "@/components/Animation";
 import Form from "@/components/Form";
 import { useState } from "react";
+// import HeroImage from "/images/main-pic-1.png"
+import HeroImage from "../../../public/images/main-pic-1.png"
 
 type MainProps = {
   scrollToRef: any;
@@ -18,14 +20,13 @@ const Main = ({ scrollToRef }: MainProps) => {
     <div className={cn("section", styles.main)}>
       <div className={cn("container", styles.container)}>
         <div className={styles.wrap}>
-          <h1 className={cn("hero", styles.title)}>PollVault</h1>
-          <div className={cn("h4M", styles.info)}>
-            WOW your audience! with simple, fun, conversational polls
-          </div>
+          <h1 className={cn("h2",styles.title)}>Understand Your Audience Like Never Before</h1>
+          {/* <div className={cn("h6", styles.info)}>
+          </div> */}
           <div className={styles.btns}>
             <Form
               className={styles.form}
-              placeholder="Your email"
+              placeholder="Join the waitlist"
               type="email"
               icon="mail"
               value={email}
@@ -38,12 +39,15 @@ const Main = ({ scrollToRef }: MainProps) => {
           </div>
         </div>
         <div className={styles.preview}>
-          <Image
-            src="/images/main-pic-1.png"
-            width={980}
-            height={735}
-            alt="Hero"
-          />
+          <div className={styles.heroImage}>
+            <Image
+              src={HeroImage}
+              width={835}
+              height={818}
+              alt="Hero"
+              placeholder="blur"
+            />
+          </div>
           <div className={styles.ball}></div>
           <div className={styles.circles}>
             {Array.from(Array(4).keys()).map((x) => (

@@ -8,26 +8,17 @@ const Main = ({}: MainProps) => (
         <div className={cn("container", styles.container)}>
             <h1 className={cn("h1", styles.title)}>About us</h1>
             <div className={styles.row}>
-                <div className={cn("h3", styles.subtitle)}>What is Paradox</div>
+                <div className={cn("h3", styles.subtitle)}>What is Pollvault</div>
                 <div className={styles.details}>
                     <div className={cn("h5M", styles.info)}>
-                        Amet minim mollit non deserunt ullamco est sit aliqua
-                        dolor do amet sint. Velit officia consequat duis enim
-                        velit mollit. Exercitation veniam consequat sunt nostrud
-                        amet.
+                    Meet Pollvault, your very own AI-powered platform designed to help you connect with your audience on a deeper level - whether you’re conducting leadership 360* or collecting service feedback.
                     </div>
                     <div className={styles.content}>
                         <p>
-                            Amet minim mollit non deserunt ullamco est sit
-                            aliqua dolor do amet sint. Velit officia consequat
-                            duis enim velit mollit. Exercitation veniam
-                            consequat sunt nostrud amet.
+                        Pollvault’s conversational AI makes every participant feel valued, as it adapts and dives deeper based on their responses.
                         </p>
                         <p>
-                            Amet minim mollit non deserunt ullamco est sit
-                            aliqua dolor do amet sint. Velit officia consequat
-                            duis enim velit mollit. Exercitation veniam
-                            consequat sunt nostrud amet.
+                        Pollvault allows you to deliver a lasting impression with an interactive experience that leaves your audience feeling heard and appreciated.
                         </p>
                     </div>
                 </div>

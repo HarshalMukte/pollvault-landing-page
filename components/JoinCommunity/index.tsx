@@ -13,10 +13,10 @@ const JoinCommunity = ({}: JoinCommunityProps) => (
         <div className={cn("container", styles.container)}>
             <div className={styles.wrap}>
                 <div className={cn("h1", styles.title)}>
-                    Ready to use Paradox?
+                Ready to WOW your audience?
                 </div>
                 <div className={cn("h4M", styles.info)}>
-                    Join thousand users and teams in the community
+                Join the waitlist for the exclusive Pollvault community.
                 </div>
                 <div className={styles.avatars}>
                     {avatars.map((avatar, index) => (

@@ -16,10 +16,10 @@ const HomePage = () => {
     return (
         <Layout>
             <Main scrollToRef={scrollToRef} />
-            <Website scrollToRef={scrollToRef} />
+            {/* <Website scrollToRef={scrollToRef} /> */}
             <Generation />
             <Details />
-            <Integration />
+            {/* <Integration /> */}
             <Discover />
             <Reviews />
             <Design />

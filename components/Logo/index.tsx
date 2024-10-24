@@ -6,7 +6,6 @@ import Image from "@/components/Image";
 type LogoProps = {
     className?: string;
     titleClassName?: string;
-    black?: boolean;
     onClick?: () => void;
     title?: boolean;
 };
@@ -14,22 +13,21 @@ type LogoProps = {
 const Logo = ({
     className,
     titleClassName,
-    black,
     onClick,
     title,
 }: LogoProps) => (
     <Link href="/">
         <a className={cn(styles.logo, className)} onClick={onClick}>
             <Image
-                src={`/images/logo${black ? "-black" : ""}.svg`}
-                width={black ? 52 : 40}
-                height={black ? 52 : 40}
-                alt="Paradox"
+                src="/images/logo.svg"
+                width="150"
+                height="50"
+                alt="Pollvault"
                 priority
             />
             {title && (
                 <div className={cn("h5M", styles.title, titleClassName)}>
-                    Paradox
+                    Pollvault
                 </div>
             )}
         </a>

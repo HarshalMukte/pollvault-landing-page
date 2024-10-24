@@ -11,7 +11,7 @@ import { details } from "@/constants/details";
 type DetailsProps = {};
 
 const Details = ({}: DetailsProps) => {
-    const [sorting, setSorting] = useState<string>("render-faster");
+    const [sorting, setSorting] = useState<string>("AI that cares");
     const [visibleModal, setVisibleModal] = useState<boolean>(false);
 
     const handleChange = (value: string) => setSorting(value);
@@ -41,11 +41,13 @@ const Details = ({}: DetailsProps) => {
                             <div
                                 className={cn(styles.item, {
                                     [styles.item1]:
-                                        item.value === "render-faster",
+                                        item.value === "AI that cares",
                                     [styles.item2]:
-                                        item.value === "realistic-materials",
+                                        item.value === "Drop-off reduction",
                                     [styles.item3]:
-                                        item.value === "live-interaction",
+                                        item.value === "Async interviews",
+                                    [styles.item4]:
+                                    item.value === "Ask Polly",
                                 })}
                                 key={index}
                             >
@@ -56,7 +58,7 @@ const Details = ({}: DetailsProps) => {
                                     <div className={cn("h5M", styles.content)}>
                                         {item.content}
                                     </div>
-                                    <button
+                                    {/* <button
                                         className={cn("button", styles.button)}
                                         onClick={() => setVisibleModal(true)}
                                     >
@@ -78,7 +80,7 @@ const Details = ({}: DetailsProps) => {
                                                 allowFullScreen
                                             ></iframe>
                                         </div>
-                                    </Modal>
+                                    </Modal> */}
                                 </div>
                                 <div className={styles.preview}>
                                     <div className={styles.image}>

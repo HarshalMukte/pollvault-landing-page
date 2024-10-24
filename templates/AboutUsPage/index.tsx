@@ -9,7 +9,7 @@ const AboutUsPage = () => {
         <Layout layoutNoOverflow>
             <Main />
             <Photo />
-            <Team />
+            {/* <Team /> */}
             <JoinCommunity />
         </Layout>
     );
