@@ -33,7 +33,6 @@ const Menu = ({ navigation }: MenuProps) => {
             >
                 <Logo
                     className={styles.logo}
-                    black
                     onClick={() => setVisibleMenu(false)}
                 />
                 <nav className={styles.navigation}>
