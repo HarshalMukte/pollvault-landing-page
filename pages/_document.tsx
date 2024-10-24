@@ -16,47 +16,47 @@ class MyDocument extends Document {
         return (
             <Html>
                 <Head>
-                    <meta
-                        content="Production-ready landing page template for SaaS and startups"
-                        name="Paradox – Premium SaaS landing page kit"
+                <meta
+                        content="PollVault - Create and manage polls easily"
+                        name="description"
                     />
-                    <meta
-                        content="Paradox – Premium SaaS landing page kit"
+                   <meta
+                        content="PollVault"
                         property="og:title"
                     />
                     <meta
-                        content="Production-ready landing page template for SaaS and startups"
+                        content="PollVault helps you create and manage polls effortlessly."
                         property="og:description"
                     />
                     <meta
                         content="%PUBLIC_URL%/fb-og-image.png"
                         property="og:image"
                     />
-                    <meta
+                     <meta
                         property="og:url"
-                        content="https://ui8.net/ui8/products/paradox"
+                        content="https://www.pollvault.ing/"
                     />
                     <meta
                         property="og:site_name"
-                        content="Paradox – Premium SaaS landing page kit"
+                        content="PollVault"
                     />
                     <meta
-                        content="Paradox – Premium SaaS landing page kit"
+                        content="PollVault"
                         property="twitter:title"
                     />
                     <meta
-                        content="Production-ready landing page template for SaaS and startups"
+                        content="PollVault - Your go-to platform for poll management."
                         property="twitter:description"
                     />
                     <meta
                         content="%PUBLIC_URL%/twitter-card.png"
                         property="twitter:image"
                     />
-                    <meta property="og:type" content="Article" />
-                    <meta content="summary" name="twitter:card" />
-                    <meta name="twitter:site" content="@ui8" />
-                    <meta name="twitter:creator" content="@ui8" />
-                    <meta property="fb:admins" content="132951670226590" />
+                    <meta property="og:type" content="website" />
+                    <meta content="summary_large_image" name="twitter:card" />
+                    <meta name="twitter:site" content="@PollVault" />
+                    <meta name="twitter:creator" content="@PollVault" />
+                    <meta property="fb:admins" content="1234567890" />
                     <meta
                         name="viewport"
                         content="width=device-width, initial-scale=1"
