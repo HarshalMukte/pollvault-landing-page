@@ -35,7 +35,7 @@ const Main = ({ scrollToRef }: MainProps) => {
               setValue={setEmail}
               onSubmit={() => console.log("Submit")}
             /> */}
-            <NewWidget />
+            <NewWidget color="primary"/>
             <Link href="/about-us">
               <a className={cn("button-gray", styles.button)}>Learn more</a>
             </Link>

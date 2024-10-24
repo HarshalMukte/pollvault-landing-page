@@ -38,7 +38,7 @@ const JoinCommunity = ({}: JoinCommunityProps) => {
                 setValue={setEmail}
                 onSubmit={() => console.log("Submit")}
               /> */}
-              <NewWidget />
+              <NewWidget color="secondary"/>
             </div>
             {/* <Link href="/pricing">
               <a className={cn("button", styles.button)}>Get started</a>
