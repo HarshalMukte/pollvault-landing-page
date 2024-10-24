@@ -21,8 +21,8 @@ const HomePage = () => {
             <Details />
             {/* <Integration /> */}
             <Discover />
-            <Reviews />
-            <Design />
+            {/* <Reviews /> */}
+            {/* <Design /> */}
             <JoinCommunity />
         </Layout>
     );

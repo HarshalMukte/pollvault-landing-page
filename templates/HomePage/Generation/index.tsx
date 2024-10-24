@@ -44,13 +44,15 @@ const Generation = ({}: GenerationProps) => {
                                     </div>
                                 )}
                                 <div className={styles.image}>
-                                    <Image
-                                        src={item.image}
-                                        width={160}
-                                        height={64}
-                                        alt="Generation"
-                                        priority
-                                    />
+                                    <div className={styles.imageDiv}>
+                                        <Image
+                                            src={item.image}
+                                            width={160}
+                                            height={64}
+                                            alt="Generation"
+                                            priority
+                                        />
+                                    </div>
                                 </div>
                             </div>
                             <div className={cn("h5", styles.subtitle)}>
