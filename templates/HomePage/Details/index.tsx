@@ -2,10 +2,9 @@ import { useState } from "react";
 import cn from "classnames";
 import styles from "./Details.module.sass";
 import Tabs from "@/components/Tabs";
-import Image from "@/components/Image";
+import Image from "next/image"; 
 import Modal from "@/components/Modal";
 import Select from "@/components/Select";
-
 import { details } from "@/constants/details";
 
 type DetailsProps = {};
@@ -89,6 +88,7 @@ const Details = ({}: DetailsProps) => {
                                             width={item.image.width}
                                             height={item.image.height}
                                             alt={item.image.alt}
+                                            placeholder="blur"
                                         />
                                     </div>
                                 </div>

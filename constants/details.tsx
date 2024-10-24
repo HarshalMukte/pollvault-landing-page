@@ -1,3 +1,8 @@
+import img1 from "../public/images/details-pic-1.png"
+import img2 from "../public/images/details-pic-2.png"
+import img3 from "../public/images/details-pic-3.png"
+
+
 export const details = [
     {
         title: "AI that cares",
@@ -6,7 +11,7 @@ export const details = [
         content: "Engage your participants with adaptive surveys and interviews—because you only get one chance to wow your audience.",
         video: "BHACKCNDMW8",
         image: {
-            src: "/images/details-pic-1.png",
+            src: img1,
             width: 1440,
             height: 1140,
             alt: "Details",
@@ -19,7 +24,7 @@ export const details = [
         content: "With real-time drop-off detection, Pollvault ensures you can collect key insights while respecting your audience’s time and priorities.",
         video: "BHACKCNDMW8",
         image: {
-            src: "/images/details-pic-2.png",
+            src: img2,
             width: 734,
             height: 426,
             alt: "Details",
@@ -45,7 +50,7 @@ export const details = [
         content: "Polly allows you to go beyond data with actionable insights and recommendations, given the context of your hypothesis.",
         video: "BHACKCNDMW8",
         image: {
-            src: "/images/details-pic-3.png",
+            src: img3,
             width: 1140,
             height: 822,
             alt: "Details",

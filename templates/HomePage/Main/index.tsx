@@ -1,13 +1,15 @@
 import Link from "next/link";
 import cn from "classnames";
 import styles from "./Main.module.sass";
-import Image from "@/components/Image";
+// import Image from "@/components/Image";
+
 import Scroll from "@/components/Scroll";
 import Animation from "@/components/Animation";
 import Form from "@/components/Form";
 import { useState } from "react";
 // import HeroImage from "/images/main-pic-1.png"
 import HeroImage from "../../../public/images/main-pic-1.png"
+import Image from "next/image";
 
 type MainProps = {
   scrollToRef: any;
