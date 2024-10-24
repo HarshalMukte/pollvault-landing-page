@@ -8,8 +8,8 @@ const Photo = ({}: PhotoProps) => (
     <div className={cn("section", styles.photo)}>
         <Image
             src="/images/picture-1.png"
-            width={1100}
-            height={760}
+            width={838}
+            height={818}
             alt="Picture"
         />
     </div>

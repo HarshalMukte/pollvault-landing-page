@@ -19,10 +19,10 @@ export const headerNavigation = [
         title: "About",
         url: "/about-us",
     },
-    {
-        title: "FAQs",
-        url: "/faqs",
-    },
+    // {
+    //     title: "FAQs",
+    //     url: "/faqs",
+    // },
     // {
     //     title: "Help",
     //     url: "/help",
@@ -44,9 +44,14 @@ export const footerNavigation = [
             //     url: "/pricing",
             //     external: false,
             // },
+            // {
+            //     title: "FAQs",
+            //     url: "/faqs",
+            //     external: false,
+            // },
             {
-                title: "FAQs",
-                url: "/faqs",
+                title: "Home",
+                url: "/",
                 external: false,
             },
         ],
@@ -81,25 +86,25 @@ export const footerNavigation = [
         title: "Community",
         value: "community",
         menu: [
+            // {
+            //     title: "Help",
+            //     url: "/help",
+            //     external: false,
+            // },
             {
-                title: "Help",
-                url: "/help",
+                title: "Behance",
+                url: "https://www.pollvault.ing",
                 external: false,
             },
             {
-                title: "Behance",
-                url: "https://www.behance.net/ui8",
-                external: true,
-            },
-            {
                 title: "Twitter",
-                url: "https://twitter.com/ui8",
-                external: true,
+                url: "https://www.pollvault.ing",
+                external: false,
             },
             {
                 title: "Linked in",
-                url: "https://www.linkedin.com/company/ui8",
-                external: true,
+                url: "https://www.pollvault.ing",
+                external: false,
             },
         ],
     },
